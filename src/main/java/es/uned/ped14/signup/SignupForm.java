@@ -57,6 +57,6 @@ public class SignupForm {
 	}
 
 	public Account createAccount() {
-        return new Account(getEmail(), getPassword(), getUsuario(), "ROLE_USER");
+        return new Account(getEmail(), getPassword(), getUsuario(), getProvincia(), "ROLE_USER");
 	}
 }
